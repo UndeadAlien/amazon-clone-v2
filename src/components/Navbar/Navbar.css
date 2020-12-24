@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+/* Left */
+.nav__container {
+  background: #131921;
+  height: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  line-height: 80%;
+  height: 80%;
+  border: 1px solid red;
+}
+
+.nav__grid__layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.nav__left img {
+  width: 100%;
+}
+
+.nav__logo {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__logo:hover {
+  outline: 1px solid #fff;
+}
+
+.nav__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__address:hover {
+  outline: 1px solid #fff;
+}
+
+.nav__address__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav__address__icon span {
+  font-size: 1.5rem;
+  margin-right: .2rem;
+  color: #fff;
+}
+
+.nav__address__display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: .5rem;
+}
+
+.nav__address__display span:last-child {
+  font-size: 1.1rem;
+}
+
+/* Center */
+.search__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.search__container form {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 6fr 1fr;
+      grid-template-columns: 1fr 6fr 1fr;
+  height: 2.5rem;
+}
+
+.search__container input {
+  padding: .5rem;
+  border: none;
+  outline: none;
+}
+
+.search__container button {
+  border: none;
+  outline: none;
+}
+
+.search__container button:first-child {
+  border-radius: .3rem 0 0 .3rem;
+  padding-left: .4rem;
+}
+
+.search__container button:first-child span {
+  margin-left: .4rem;
+}
+
+.search__container button:last-child {
+  background: #febd69;
+  font-size: 1.2rem;
+  padding-top: .2rem;
+  border-radius: .0 .3rem .3rem 0;
+}
+
+/* Right */
+.nav__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.right__side__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 2fr 2fr;
+      grid-template-columns: 1fr 2fr 2fr 2fr;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.right__side__grid div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.right__side__grid div:hover {
+  outline: 1px solid red;
+}
+
+.country__picker img {
+  width: 2rem;
+}
+
+.country__picker:hover {
+  outline: 1px solid white;
+}
+
+.sign__in {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sign__in:hover {
+  outline: 1px solid white;
+}
+
+.returns__orders {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.returns__orders:hover {
+  outline: 1px solid white;
+}
+
+.cart span:first-child {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.cart:hover {
+  outline: 1px solid white;
+}
+/*# sourceMappingURL=Navbar.css.map */
